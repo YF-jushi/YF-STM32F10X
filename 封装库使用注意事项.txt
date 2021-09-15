@@ -1,0 +1,4 @@
+1.外部中断要执行的函数必须在stm32f10x_it.c文件中修改
+2.printf函数被重定义到了USART3
+3.USARTx_print函数目前只能发送字符串和字符
+4.模拟读入函数（analogRead）目前只能用ADC1的GPIOA的0-7号引脚
